@@ -3,8 +3,7 @@ $: << File.join( File.dirname( __FILE__ ), '../lib/')
 require 'test/unit'
 require 'popen4'
 
-require 'rubygems'
-require_gem 'Platform', '>= 0.4.0'
+require 'platform'
 
 class POpen4Test < Test::Unit::TestCase
   

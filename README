@@ -26,23 +26,15 @@ No surprises--it's a new API on either platform.
 
 == Installation
 
-   $ gem install --remote --include-dependencies POpen4
+   $ gem install POpen4
    
-Presently POpen4 ships in four platform specific gems:
+Needed gem on Windows: 
 
-  POpen4-0.1.0-unix.gem
-  POpen4-0.1.0-win32-1.8.2-VC7.gem
-  POpen4-0.1.0-win32-1.8.4-VC6.gem
-  POpen4-0.1.0-win32-source.gem
+   $ gem install win-open3
 
-Users of Linux, Unix, BSD, etc., will want the unix package. Ara's Open4 gem
-is a dependency. Users of the Ruby One-Click Installer (OCI) will want to select
-the gem appropriate their version of Ruby. The real issue here is compiler 
-version. The wrong version will SEGFAULT due to some incompatibility somewhere
-in the VC++ compiler or libraries (which I really wish we could resolve, 
-but oh well). Others using a Windows platform but not the OCI will want to 
-compile from source using last of these gems. Be sure to have your environment 
-set up for doing a build before running <tt>gem install POpen4</tt>.
+Needed gem on Unix:
+
+   $ gem install open4
 
 == Acknowledgements
 Ara Howard, Park Heesob, Daniel Berger and others have done the real work. Many 

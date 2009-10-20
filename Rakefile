@@ -26,7 +26,7 @@ rd = Rake::RDocTask.new("rdoc") { |rdoc|
   rdoc.title    = "POpen4 -- Open4 cross-platform"
   rdoc.options << '--main' << 'README'
   rdoc.rdoc_files.include('README', 'LICENSE', 'CHANGES')
-  rdoc.rdoc_files.include('lib/**/*.rb', 'doc/**/*.rdoc').exclude('lib/open3.rb')
+  rdoc.rdoc_files.include('lib/**/*.rb', 'doc/**/*.rdoc')
 }
 
 # GEM Packaging -----------------------------------------------------------
