@@ -1,15 +1,15 @@
 == POpen4 License
 
-POpen4 is copyright John-Mason P. Shackelford (john-mason@shackelford.org) 
-and made available under the terms of Ruby's license, included below for your 
+POpen4 is copyright John-Mason P. Shackelford (john-mason@shackelford.org)
+and made available under the terms of Ruby's license, included below for your
 convenience.
 
 == win32-open3 License
 
 The the win32-open3 library may be included in this distribution of POpen4. If
-so, POpen4 users must also comply with the terms of its license. Park Heesob and 
-Daniel Berger hold the copyright on most of the win32-open3 code which also 
-happens to be licensed under the same terms as Ruby. 
+so, POpen4 users must also comply with the terms of its license. Park Heesob and
+Daniel Berger hold the copyright on most of the win32-open3 code which also
+happens to be licensed under the same terms as Ruby.
 
 == Ruby's License
 
@@ -59,9 +59,9 @@ You can redistribute it and/or modify it under either the terms of the GPL
      For the list of those files and their copying conditions, see the
      file LEGAL.
 
-  5. The scripts and library files supplied as input to or produced as 
+  5. The scripts and library files supplied as input to or produced as
      output from the software do not automatically fall under the
-     copyright of the software, but belong to whomever generated them, 
+     copyright of the software, but belong to whomever generated them,
      and may be sold commercially, and may be aggregated with this
      software.
 

@@ -46,7 +46,7 @@ spec = Gem::Specification.new do |s|
   s.require_path  = "lib"
   s.autorequire   = "popen4.rb"
   s.has_rdoc      = true
-  s.add_dependency("Platform",   ">= 0.4.0")    
+  s.add_dependency("Platform",   ">= 0.4.0")
 end
 
 task :package => [:test]
@@ -69,7 +69,7 @@ spec = Gem::Specification.new do |s|
   s.require_path  = "lib"
   s.autorequire   = "popen4.rb"
   s.has_rdoc      = true
-  s.add_dependency("Platform",   ">= 0.4.0")    
+  s.add_dependency("Platform",   ">= 0.4.0")
 end
 
 task :package => [:test]
@@ -93,7 +93,7 @@ spec = Gem::Specification.new do |s|
   s.autorequire   = "popen4.rb"
   s.has_rdoc      = true
   s.add_dependency("Platform",   ">= 0.4.0")
-  s.extensions << 'ext/win32-open3/extconf.rb'   
+  s.extensions << 'ext/win32-open3/extconf.rb'
 end
 
 task :package => [:test]
@@ -112,12 +112,12 @@ spec = Gem::Specification.new do |s|
   s.email         = "john-mason@shackelford.org"
   s.platform      = 'unix'
   s.summary       = "Open4 cross-platform"
-  s.files         = POPEN4_GENERIC 
+  s.files         = POPEN4_GENERIC
   s.require_path  = "lib"
   s.autorequire   = "popen4.rb"
   s.has_rdoc      = true
   s.add_dependency("Platform",   ">= 0.4.0")
-  s.add_dependency("open4",     ">= 0.4.0")  
+  s.add_dependency("open4",     ">= 0.4.0")
 end
 
 task :package => [:test]

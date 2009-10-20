@@ -33,13 +33,13 @@ when :win32
   #   puts "exitstatus : #{ status.exitstatus }"
   #
   module POpen4
-    # Starts a new process and hands IO objects representing the subprocess 
-    # stdout, stderr, stdin streams and the pid (respectively) to the block 
+    # Starts a new process and hands IO objects representing the subprocess
+    # stdout, stderr, stdin streams and the pid (respectively) to the block
     # supplied. If the command could not be started, return nil.
-    # 
+    #
     # The mode argument may be set to t[ext] or b[inary] and is used only on
     # Windows platforms.
-    # 
+    #
     # The stdin stream and/or pid may be omitted from the block parameter list
     # if they are not required.
     def self.popen4(command, mode = "t") # :yields: stdout, stderr, stdin, pid
