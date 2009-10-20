@@ -4,13 +4,6 @@ POpen4 is copyright John-Mason P. Shackelford (john-mason@shackelford.org)
 and made available under the terms of Ruby's license, included below for your
 convenience.
 
-== win32-open3 License
-
-The the win32-open3 library may be included in this distribution of POpen4. If
-so, POpen4 users must also comply with the terms of its license. Park Heesob and
-Daniel Berger hold the copyright on most of the win32-open3 code which also
-happens to be licensed under the same terms as Ruby.
-
 == Ruby's License
 
 Ruby is copyrighted free software by Yukihiro Matsumoto <matz@netlab.jp>.
