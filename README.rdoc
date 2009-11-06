@@ -30,7 +30,7 @@ No surprises--it's a new API on either platform.
 
 Needed gem on Windows:
 
-   $ gem install win-open3
+   $ gem install win32-open3
 
 Needed gem on Unix:
 
