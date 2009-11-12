@@ -1,5 +1,5 @@
 == 0.1.3 - 20-Oct-2009
-* Use of win-open3 gem
+* Use of win32-open3 gem
 
 == 0.1.1 - 12-Jun-2006
 * Fixed Bug 4742

@@ -26,7 +26,7 @@ No surprises--it's a new API on either platform.
 
 == Installation
 
-   $ gem install POpen4
+   $ gem install POpen4 --source http://gemcutter.org
 
 Needed gem on Windows:
 
