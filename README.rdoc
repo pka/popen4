@@ -28,14 +28,6 @@ No surprises--it's a new API on either platform.
 
    $ gem install POpen4 --source http://gemcutter.org
 
-Needed gem on Windows:
-
-   $ gem install win32-open3
-
-Needed gem on Unix:
-
-   $ gem install open4
-
 == Acknowledgements
 Ara Howard, Park Heesob, Daniel Berger and others have done the real work. Many
 thanks to them for the many hours they have poured into sharing their work with
