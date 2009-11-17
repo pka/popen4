@@ -1,6 +1,6 @@
 = POpen4
 This is a repackaged version of John-Mason P. Shackelfords {POpen4}[http://popen4.rubyforge.org/] 
-gem without without native libraries.
+gem without native libraries.
 
 == Description
 POpen4 provides the Rubyist a single API across platforms for executing a
@@ -10,13 +10,6 @@ provide an easy way to use either Ara Howard's Open4 library or the win32-popen3
 library by Park Heesob and Daniel Berger depending on your platform and without
 having to code around the slight differences in their APIs.
 
-Consider this my first attempt at a response to
-{Daniel's request}[http://groups.google.com/group/comp.lang.ruby/msg/44ba016610fa8878]
-for a consensus on the API back in 2005.
-
-It is my hope that this project will be shortly absorbed or replaced with a
-better solution. POpen4 offers very little in the way of features or
-flexibility, but it does work across platforms without extra coding.
 == Notes
 Rather than adopting either Open4's API or win32-open3's (they differ in several
 respects, but most obviously in the order in which streams are passed to the
