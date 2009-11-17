@@ -1,3 +1,7 @@
+= POpen4
+This is a repackaged version of John-Mason P. Shackelfords {POpen4}[http://popen4.rubyforge.org/] 
+gem without without native libraries.
+
 == Description
 POpen4 provides the Rubyist a single API across platforms for executing a
 command in a child process with handles on stdout, stderr, stdin streams as well

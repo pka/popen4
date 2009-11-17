@@ -51,7 +51,7 @@ begin
     gemspec.homepage = "http://github.com/pka/popen4"
     gemspec.authors = ["John-Mason P. Shackelford"]
     gemspec.add_dependency("Platform",   ">= 0.4.0")
-    gemspec.add_dependency("open4")
+    gemspec.add_dependency("open4", ">= 0.4.0")
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
