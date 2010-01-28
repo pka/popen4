@@ -51,14 +51,16 @@ when :win32
         # On windows we will always get an exit status of 3 unless
         # we read to the end of the streams so we do this on all platforms
         # so that our behavior is always the same.
-        stdout.read unless stdout.eof?
+        stdout.read unless stdout.closed? or stdout.eof?
 
         # On windows executing a non existent command does not raise an error
         # (as in unix) so on unix we return nil instead of a status object and
         # on windows we try to determine if we couldn't start the command and
         # return nil instead of the Process::Status object.
-        stderr.rewind
-        err_output = stderr.read
+        unless stderr.closed?
+          stderr.rewind
+          err_output = stderr.read
+        end
       end
 
       return $?
@@ -77,8 +79,8 @@ else # unix popen4 yields pid, stdin, stdout and stderr, respectively
           # On windows we will always get an exit status of 3 unless
           # we read to the end of the streams so we do this on all platforms
           # so that our behavior is always the same.
-          stdout.read unless stdout.eof?
-          stderr.read unless stderr.eof?
+          stdout.read unless stdout.closed? or stdout.eof?
+          stderr.read unless stdout.closed? or stderr.eof?
         end
       rescue Errno::ENOENT => e
         # On windows executing a non existent command does not raise an error
