@@ -80,7 +80,7 @@ else # unix popen4 yields pid, stdin, stdout and stderr, respectively
           # we read to the end of the streams so we do this on all platforms
           # so that our behavior is always the same.
           stdout.read unless stdout.closed? or stdout.eof?
-          stderr.read unless stdout.closed? or stderr.eof?
+          stderr.read unless stderr.closed? or stderr.eof?
         end
       rescue Errno::ENOENT => e
         # On windows executing a non existent command does not raise an error
