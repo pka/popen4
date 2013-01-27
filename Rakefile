@@ -41,6 +41,7 @@ begin
     gemspec.add_dependency("Platform",   ">= 0.4.0")
     gemspec.platform = 'x86-mswin32'
     gemspec.add_dependency("win32-open3")
+    gemspec.license = "Ruby"
   end
   # Unix
   Jeweler::Tasks.new do |gemspec|
@@ -52,6 +53,7 @@ begin
     gemspec.authors = ["John-Mason P. Shackelford"]
     gemspec.add_dependency("Platform",   ">= 0.4.0")
     gemspec.add_dependency("open4", ">= 0.4.0")
+    gemspec.license = "Ruby"
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
